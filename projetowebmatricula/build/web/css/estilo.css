@@ -1,0 +1,91 @@
+
+/*Index*/
+#inicial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1530293959042-0aac487c21e3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhbm8lMjBkZSUyMGZ1bmRvJTIwYXp1bCUyMGNsYXJvfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    div{
+        width: 100%;
+        height: 400px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+
+    }
+}
+
+/*Fim do css do index*/
+/*Listar page*/
+#listar{
+    background-image: url(https://wallpapers.com/images/hd/light-gray-background-o7ohnir8kmkep2wt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+#topo{
+    width: 100%;
+    height: 100px;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    background-color: #555;
+    
+}
+#principal{
+    top: 120px;
+    z-index: 1;
+    position: relative;
+}
+
+.btn-contato{
+    padding: 0% 2%;
+    margin-right: 1%;
+}
+.jumbotron,.container{
+    padding: 1% 1%;
+}
+
+#titulo-listar{
+    color: white;
+}
+form{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.legenda-excluir{
+   padding: 0 1% !important;
+   font-weight: bold !important;
+   font-size: 1.2em;
+    
+}
+/*Fim do css do listar opage */
+
+#excluir,#alterar,#cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-ajuste{
+    padding: 0.5% 2%;
+    margin-right: 1%;
+}
+h1{
+   font-size: 4vw; 
+}
